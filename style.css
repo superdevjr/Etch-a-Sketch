@@ -136,26 +136,53 @@ table {
 
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    max-width: fit-content;
 }
 
-.intro {
-    align-self: center;
-}
-
-h1 {
-    align-self: center;
-}
 
 #container {
     display: flex;
+    flex-shrink: 1;
+    border: 20px solid black;
+
+
+}
+
+/* .squareRow {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 20px;
+    height: 20px;
+
+} */
+
+
+.squareColumn {
+    background-color: rgb(223, 218, 223);
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+
+}
+
+.squareColumnHover {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+
 }
 
 
-.input-bar {
-    display: flex;
-    justify-content: space-around;
+
+.hover {
+    background-color: red;
 }
