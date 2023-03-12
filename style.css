@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 html,
 body,
 div,
@@ -127,4 +130,32 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/*start here*/
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    max-width: fit-content;
+}
+
+.intro {
+    align-self: center;
+}
+
+h1 {
+    align-self: center;
+}
+
+#container {
+    display: flex;
+}
+
+
+.input-bar {
+    display: flex;
+    justify-content: space-around;
 }

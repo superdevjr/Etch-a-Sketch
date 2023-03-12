@@ -8,10 +8,30 @@
     <title>Etch A Sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<h1>Etch A Sketch</h1>
-<p>This is a JavaScript drawing toy I developed as part of my journey with The Odin Project.</p>
 
 <body>
+    <h1>Etch A Sketch</h1>
+    <p class="intro">This is a JavaScript drawing toy I developed as part of my journey with The Odin Project.</p>
+    <div class="input-bar">
+        Enter desired length<input id="lengthForm" class="form-control"><button id="lengthSubmit">Submit</button>
+        Enter desired height<input id="heightForm" class="form-control"><button id="heightSubmit">Submit</button>
+    </div>
+    <p id="demo"></p>
+
+    <div id="container">
+        <div id="row">this is a row
+            <div id="column">this is a column</div>
+            <div id="column">this is a column</div>
+            <div id="column">this is a column</div>
+        </div>
+        <div id="row">this is a row
+            <div id="column">this is a column</div>
+            <div id="column">this is a column</div>
+            <div id="column">this is a column</div>
+        </div>
+    </div>
+
+
     <!-- JavaScript goes here -->
     <script src="script.js"></script>
 </body>
