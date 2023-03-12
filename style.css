@@ -137,47 +137,39 @@ table {
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 
 #container {
     display: flex;
-    flex-shrink: 1;
-    border: 20px solid black;
+
 
 
 }
 
-/* .squareRow {
+.squareRow {
     background-color: red;
     display: flex;
     flex-wrap: wrap;
-
     width: 20px;
     height: 20px;
 
-} */
+}
 
 
 .squareColumn {
-    background-color: rgb(223, 218, 223);
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 1;
 
+    background-color: rgb(223, 218, 223);
     width: 20px;
     height: 20px;
-    border: 1px solid black;
-
 }
 
 .squareColumnHover {
     background-color: red;
     display: flex;
-    flex-wrap: wrap;
     width: 20px;
     height: 20px;
-    border: 1px solid black;
 
 }
 

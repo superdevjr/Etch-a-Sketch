@@ -29,11 +29,11 @@ drawGrid = () => {
 drawGrid()
 
 
-heightButton = document.querySelector('#heightSubmit');
-heightButton.addEventListener('click', drawHeight)
+// heightButton = document.querySelector('#heightSubmit');
+// heightButton.addEventListener('click', drawHeight)
 
-lengthButton = document.querySelector('#lengthSubmit');
-lengthButton.addEventListener('click', function () {
+resetButton = document.querySelector('#reset');
+resetButton.addEventListener('click', function () {
     const squareList = (document.querySelectorAll(".squareColumnHover"));
     for (let i = 0; i < squareList.length; i++) {
         squareList[i].className = "squareColumn"
